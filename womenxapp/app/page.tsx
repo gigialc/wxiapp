@@ -63,10 +63,10 @@ export default function Home() {
         </div> */}
 
         <div className="mt-16 text-center ">
-        <p className="text-xl font-semibold text-gray-900 px-20">
+        <p className="text-xl font-semibold text-gray-900 px-20 dark:text-white">
           If <span className="font-bold">women and men</span> around the world <span className="font-bold">participated equally as entrepreneurs</span>, global GDP could ultimately rise by approximately 3% to 6%, <span className="font-bold">boosting the global economy by $2.5 trillion to $5 trillion</span> - Harvard Business Review
         </p>
-        <p className="mt-8 text-xl text-gray-900 px-20">
+        <p className="mt-8 text-xl text-gray-900 px-20 dark:text-white">
           The problem is... today <span className="font-bold">only 14% of unicorns</span> have a <span className="font-bold">female cofounder</span> and <span className="font-bold">only 5% have a founding CEO who identifies as female</span> - Forbes 2024
         </p>
         <br />
@@ -75,7 +75,7 @@ export default function Home() {
         {/* ADD NEW SECTION */}
         <div className="mt-16 text-center px-20">
           <h3 className="text-2xl text-pink-600 font-bold">WHAT WE DO</h3>
-          <p className="mt-4 text-3xl font-bold text-gray-900">
+          <p className="mt-4 text-3xl font-bold text-gray-900 dark:text-white">
             Empowering Community of Women in Innovation and Entrepreneurship
           </p>
           </div>
@@ -84,21 +84,21 @@ export default function Home() {
           <div className="text-center w-80 p-6">
             <Image className="mx-auto" src="/slack_icon.png" alt="Slack Channel" width={100} height={100} />
             <h3 className="text-2xl font-bold mt-4">Slack Channel</h3>
-            <p className="mt-4 text-gray-700">
+            <p className="mt-4 text-gray-700 dark:text-white">
               Join our vibrant Slack community, a dynamic space for daily interactions, where members can share insights, seek advice, and build lasting connections with fellow 240+ women innovators.
             </p>
           </div>
           <div className="text-center w-80 p-6">
             <Image className="mx-auto" src="/coffee.jpeg" alt="In person events" width={160} height={160} />
             <h3 className="text-2xl font-bold mt-4">In person events</h3>
-            <p className="mt-4 text-gray-700">
+            <p className="mt-4 text-gray-700 dark:text-white">
               Experience the power of connection at our in-person events, ranging from workshops to networking gatherings, designed to inspire, educate, and foster meaningful relationships among women entrepreneurs.
             </p>
           </div>
           <div className="text-center w-80 p-6">
             <Image className="mx-auto" src="/resources.png" alt="Resources" width={100} height={100} />
             <h3 className="text-2xl font-bold mt-4">Resources</h3>
-            <p className="mt-4 text-gray-700">
+            <p className="mt-4 text-gray-700 dark:text-white">
               Access a curated selection of resources, including educational materials, tools, and guides, specifically tailored to support and accelerate the growth of women-led ventures in the innovation ecosystem.
             </p>
           </div>
