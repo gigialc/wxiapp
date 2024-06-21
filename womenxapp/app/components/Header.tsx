@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full bg-white p-4">
+    <header className="w-full bg-white p-4 px-20">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         
         <div className="text-2xl font-bold text-pink-400">Womenx Innovators</div>
@@ -34,15 +34,15 @@ const Header = () => {
             className="block mt-5 md:inline-block md:mt-0 text-lg text-gray-700 hover:text-pink-600 py-2">
               Events
           </Link>
-          <Link href="#"
+          {/* <Link href="#"
             className="block mt-5 md:inline-block md:mt-0 text-lg text-gray-700 hover:text-pink-600 py-2">
               Post an Opportunity
-          </Link>
-          <Link href="#">
+          </Link> */}
+          {/* <Link href="#">
             <button className="block mt-4 md:inline-block md:mt-0 text-lg text-gray-700 hover:text-pink-600 bg-pink border border-gray-700  px-2 py-2 rounded-md">
               Sign In
             </button>
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>
