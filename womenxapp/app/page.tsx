@@ -6,11 +6,11 @@ import Members from "./components/Members";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 mb-10">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 mb-10 bg-white">
       <Header />
       <main className="flex flex-col items-center justify-center flex-1 text-center px-4 sm:px-20 mt-20">
         <h1 className="text-3xl sm:text-5xl font-bold mb-5">
-          <span className="text-black-900 ">Womenx Innovators</span>
+          <span className="text-black-900">Womenx Innovators</span>
         </h1>
         <p className="text-base sm:text-xl">
           A community of 300+ women dedicated to building the next generation of female unicorn tech founders.
