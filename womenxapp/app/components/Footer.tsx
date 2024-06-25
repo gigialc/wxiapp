@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-      <footer className="bg-white py-20">
+      <footer className="bg-white py-5">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between">
             <div className="mb-6 md:mb-0 md:pr-12"> {/* Adjusted padding */}

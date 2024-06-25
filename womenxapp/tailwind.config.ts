@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        'xs': '480px', // example of adding a custom breakpoint
+      },
+      fontSize: {
+        '5xl': ['3rem', '1.2'], // example of customizing a utility
+        'custom-size': ['2rem', '1.5'] // custom font size with line height
+      }
     },
   },
   plugins: [],
