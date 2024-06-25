@@ -39,7 +39,10 @@ export default function Home() {
             The problem is... today <span className="font-bold">only 14% of unicorns</span> have a <span className="font-bold">female cofounder</span> and <span className="font-bold">only 5% have a founding CEO who identifies as female</span> - Forbes 2024
           </p>
         </div>
+        {/* no margin to left and right */}
+        <div className="w-full">
         <Members />
+        </div>
         {/* Additional Sections */}
         <div className="mt-40 text-center px-4 sm:px-20">
           <h3 className="text-xl sm:text-2xl text-pink-600 font-bold">WHAT WE DO</h3>
